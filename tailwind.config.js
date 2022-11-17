@@ -15,6 +15,10 @@ module.exports = {
         'tertiaryColor': '#eff3f4',
         'secondaryBgColor': '#5c1011',
       },
+      backgroundImage: {
+        'hero-pattern': "url('/public/hero-pattern.svg')",
+        'main-banner-4': "url('/main_banner4.png')",
+      }
     },
   },
   plugins: [],

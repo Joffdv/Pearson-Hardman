@@ -7,3 +7,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+.banner {
+  opacity: 0;
+}
+.banner.active {
+  opacity: 1;
+}
+
+.dot {
+  background-color: #868686;
+}
+
+.dot.active {
+  background-color: #d92123;
+}
