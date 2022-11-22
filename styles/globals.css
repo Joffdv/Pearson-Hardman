@@ -7,6 +7,94 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+img {
+  width: 100%;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
+
+#team .square {
+  background-color: #eff3f4;
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  margin-left: -50px;
+  top: -25px;
+}
+
+.square {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-color: #d92123;
+  position: absolute;
+  z-index: 10;
+  left: 20px;
+  top: 40px;
+}
+
+.section-subtitle {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #d92123;
+}
+
+.section-title {
+  color: #191919;
+  font-size: 2rem;
+}
+
+#about-text .section-subtitle,
+#about-text .section-title {
+  color: #fff;
+}
+
+.i {
+  background-color: #d92123;
+  color: #fff;
+  font-size: 2.5rem;
+  padding: 2rem;
+}
+
+#other-services .i {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+#about-text .i {
+  background-color: transparent;
+}
+
+#about-data .data .i {
+  background-color: transparent; 
+  color: #d92123; 
+  font-size: 4rem; 
+  padding: 0;
+}
+
+#contact .i {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  color: #d92123;
+}
+
+#about-data .data:first-child {
+  border-bottom: 1px solid #191919;
+  border-right: 1px solid #191919;
+}
+
+#about-data .data:last-child {
+  border-top: 1px solid #191919;
+  border-left: 1px solid #191919;
+}
+
 .banner {
   opacity: 0;
 }
@@ -20,4 +108,57 @@
 
 .dot.active {
   background-color: #d92123;
+}
+
+.btn {
+  padding: 1.2rem 1.8rem;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: bold;
+  background-color: #d92123;
+  color: #fff;
+  align-self: end;
+}
+
+#contact .btn {
+  align-self: start;
+  border: 2px solid #fff;
+  font-size: 1.2rem;
+  transition: 0.4s;
+}
+
+#contact input,
+#contact textarea {
+  flex: 0.5;
+  padding: 1rem;
+  border: none;
+}
+
+#footer .i {
+  font-size: 1rem;
+  padding: 0.3rem;
+}
+
+#footer a {
+  color: #fff;
+}
+
+#footer p .i {
+  background-color: transparent;
+  padding: 0;
+  color: #d92123;
+}
+
+#footer nav a {
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #868686;
+}
+
+.phone-number {
+  display: flex;
+  border: 1px solid #d92123;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
 }

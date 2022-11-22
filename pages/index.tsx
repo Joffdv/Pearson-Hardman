@@ -1,6 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/Header'
+import ExpertiseAreas from '../components/ExpertiseAreas'
+import About from '../components/About'
+import Testimonials from '../components/Testimonials'
+import Team from '../components/Team'
+import Contact from '../components/Contact'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -9,7 +15,13 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
+      <Header/>
+      <ExpertiseAreas/>
+      <About/>
+      <Testimonials />
+      <Team />
+      <Contact />
+      <Footer />
     </div>
   )
 }

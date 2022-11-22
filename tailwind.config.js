@@ -16,7 +16,7 @@ module.exports = {
         'secondaryBgColor': '#5c1011',
       },
       backgroundImage: {
-        'hero-pattern': "url('/public/hero-pattern.svg')",
+        'pattern': "url('/pattern.png')",
         'main-banner-4': "url('/main_banner4.png')",
       }
     },
