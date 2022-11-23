@@ -1,10 +1,11 @@
 import { Envelope } from 'react-bootstrap-icons'
+import Image from 'next/image'
 
 export default function Contact() {
   return (
     <section id="contact" className="flex flex-wrap bg-mainColor">
       <div className="image-container flex-[1_1_300px] relative">
-        <img src="office.jpg" alt="Advogados no escritório" />
+        <Image src="office.jpg" alt="Advogados no escritório" />
       </div>
       <div id="contact-information" className="text-container relative flex-[1_1_0%] flex gap-8 flex-col justify-center text-left p-12">
         <div className="i"><Envelope /></div>

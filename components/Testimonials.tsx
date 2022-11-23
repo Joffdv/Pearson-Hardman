@@ -1,4 +1,5 @@
 import { Quote } from 'react-bootstrap-icons'
+import Image from 'next/image'
 
 export default function Testimonials() {
   return (
@@ -13,7 +14,7 @@ export default function Testimonials() {
             <p className="text-mainColor uppercase text-[1.3rem] font-bold mb-4">Jhon Doe</p>
             <p className="text-secondaryTextColor">CEO da Empresa X</p>
           </div>
-          <img src="author_1.jpg" alt="Jhon Doe" className="w-[100px] h-[100px]"/>
+          <Image src="author_1.jpg" alt="Jhon Doe" className="w-[100px] h-[100px]"/>
         </div>
         <h3 className="section-title">
           O melhor escritório que eu já contratei, conseguimos resolver um caso
@@ -24,12 +25,12 @@ export default function Testimonials() {
             <p className="text-mainColor uppercase text-[1.3rem] font-bold mb-4">Paul Clinton</p>
             <p className="text-secondaryTextColor">Gerente de Projetos</p>
           </div>
-          <img src="author_2.jpg" alt="Paul Clinton" className="w-[100px] h-[100px]"/>
+          <Image src="author_2.jpg" alt="Paul Clinton" className="w-[100px] h-[100px]"/>
         </div>
       </div>
       <div className="image-container flex-[1_1_300px] relative">
         <div className="i absolute"><Quote /></div>
-        <img src="court.jpg" alt="Advogado em um tribunal" />
+        <Image src="court.jpg" alt="Advogado em um tribunal" />
       </div>
     </section>
   )

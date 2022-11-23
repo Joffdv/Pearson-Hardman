@@ -1,4 +1,5 @@
 import { People, Bank, Bricks, Building } from 'react-bootstrap-icons'
+import Image from 'next/image'
 
 export default function ExpetiseAreas() {
   return (
@@ -15,11 +16,11 @@ export default function ExpetiseAreas() {
         <div className="i absolute">
           <People />
         </div>
-        <img src="employees_banner.jpg" className="w-full"/>
+        <Image src="employees_banner.jpg" alt="banner employees"  />
       </div>
       <div id="other-services" className="w-full flex gap-8 p-8">
         <div className="relative">
-          <img src="bank.jpg" alt="Banco" />
+          <Image src="bank.jpg" alt="Banco" />
           <div className="i absolute top-0 left-0"><Bank /></div>
           <div className="bg-tertiaryColor px-[1.4rem] py-8 z-20 min-h-[250px] mt-[-3rem] relative">
             <h4 className="text-[1.8rem] mb-4 uppercase">Bancos e Finanças pessoais</h4>
@@ -32,7 +33,7 @@ export default function ExpetiseAreas() {
           </div>
         </div>
         <div className="relative">
-          <img src="construction.jpg" alt="Construção" />
+          <Image src="construction.jpg" alt="Construção" />
           <div className="i absolute top-0 left-0"><Bricks /></div>
           <div className="bg-tertiaryColor px-[1.4rem] py-8 z-20 min-h-[250px] mt-[-3rem] relative">
             <h4 className="text-[1.8rem] mb-4 uppercase">Construção de Imóveis sem escritura</h4>
@@ -45,8 +46,8 @@ export default function ExpetiseAreas() {
           </div>
         </div>
         <div className="relative">
-          <img src="company.jpg" alt="Empresa" />
-          <div class="i absolute top-0 left-0"><Building /></div>
+          <Image src="company.jpg" alt="Empresa" />
+          <div className="i absolute top-0 left-0"><Building /></div>
           <div className="bg-tertiaryColor px-[1.4rem] py-8 z-20 min-h-[250px] mt-[-3rem] relative">
             <h4 className="text-[1.8rem] mb-4 uppercase">Empresas e funcionários e outros</h4>
             <p>
