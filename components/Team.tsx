@@ -6,7 +6,7 @@ export default function Team() {
         A <span className="text-mainColor">Pearson Hardman</span> tem um time de especialistas a sua
         disposição
       </h2>
-      <div className="flex gap-8 p-8 text-center">
+      <div className="employees flex gap-8 p-8 text-center">
         <div>
           <img src="mike.jpg" alt="Mike Ross" />
           <p className="text-mainColor uppercase text-[1.2rem] font-bold my-2 mx-0">Mike Ross</p>

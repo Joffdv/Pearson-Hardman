@@ -3,7 +3,7 @@ import { People, Bank, Bricks, Building } from 'react-bootstrap-icons'
 export default function ExpetiseAreas() {
   return (
     <main id="expertise-areas" className="flex flex-wrap gap-8">
-      <div className="flex-[2_1_0] flex gap-8 flex-col justify-center text-right">
+      <div className="text-container flex-[2_1_0] flex gap-8 flex-col justify-center text-right">
         <p className="uppercase font-bold text-mainColor">Áreas de atuação</p>
         <h3 className="text-secondaryTextColor text-[2rem]">
           Nossos especialistas podem ajudar você em Direito Civil, Ambiental,
@@ -11,7 +11,7 @@ export default function ExpetiseAreas() {
         </h3>
         <a href="#" className="btn">Saiba Mais</a>
       </div>
-      <div className="flex-[1_1_300px] relative">
+      <div className="image-container flex-[1_1_300px] relative">
         <div className="i absolute">
           <People />
         </div>

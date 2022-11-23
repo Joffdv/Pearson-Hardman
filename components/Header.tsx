@@ -1,11 +1,20 @@
-import { Bank } from 'react-bootstrap-icons'
+import { Bank, List, XLg } from 'react-bootstrap-icons'
 
 export default function Header() {
   return (
     <header id="header" className="min-h-[90vh] bg-main-banner-4 bg-cover bg-center text-primaryTextColor mb-8 relative">
       <div className="flex justify-between items-center">
         <h2 className="bg-mainColor p-4">Pearson Hardman</h2>
-        <nav className="flex gap-16 uppercase mr-8 text-primaryTextColor font-bold">
+        <nav id="navbar" className="flex gap-16 uppercase mr-8 text-primaryTextColor font-bold">
+          <a href="#header">Início</a>
+          <a href="#expertise-areas">Serviços</a>
+          <a href="#about">Sobre</a>
+          <a href="#team">Time</a>
+          <a href="#contact">Contato</a>
+        </nav>
+        <div className="i" id="menu"><List /></div>
+        <nav id="mobile-navbar">
+          <i className="i" id="close-menu"><XLg /></i>
           <a href="#header">Início</a>
           <a href="#expertise-areas">Serviços</a>
           <a href="#about">Sobre</a>

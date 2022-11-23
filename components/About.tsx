@@ -9,7 +9,7 @@ export default function About() {
           Uma empresa que tem o foco no cliente, aconselhando da melhor forma e
           conseguindo os melhores resultados
         </h3>
-        <div className="flex items-center">
+        <div className="about-description flex items-center">
           <div className="i"><Briefcase /></div>
           <div>
             <h4 className="text-[1.4rem] mb-4">Advogados atualizados</h4>
@@ -19,7 +19,7 @@ export default function About() {
             </p>
           </div>
         </div>
-        <div className="flex items-center">
+        <div className="about-description flex items-center">
           <div className="i"><Book /></div>
           <div>
             <h4 className="text-[1.4rem] mb-4">Domínio das leis</h4>

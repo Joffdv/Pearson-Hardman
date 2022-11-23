@@ -3,7 +3,7 @@ import { Quote } from 'react-bootstrap-icons'
 export default function Testimonials() {
   return (
     <section id="testimonials" className="flex flex-wrap items-center gap-8">
-      <div className="flex-[2_1_0] flex flex-col gap-8 justify-center text-right p-12">
+      <div className="text-container flex-[2_1_0] flex flex-col gap-8 justify-center text-right p-12">
         <p className="uppercase font-bold text-mainColor">Depoimentos de clientes</p>
         <h3 className="section-title">
           A Pearson Hardman resolveu meu caso muito rápido, recomendo a todos.
@@ -27,7 +27,7 @@ export default function Testimonials() {
           <img src="author_2.jpg" alt="Paul Clinton" className="w-[100px] h-[100px]"/>
         </div>
       </div>
-      <div className="flex-[1_1_300px] relative">
+      <div className="image-container flex-[1_1_300px] relative">
         <div className="i absolute"><Quote /></div>
         <img src="court.jpg" alt="Advogado em um tribunal" />
       </div>
